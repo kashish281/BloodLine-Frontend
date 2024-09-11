@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+
+
+/*------------------FORM----------------------*/
+
+
+
+/* General form styling */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4fdfd; /* Light background color */
+  
+}
+
+
+
+.form-banner {
+  flex: 1; /* Allow the image to take up appropriate space */
+  margin-right: 50px; /* Add space between image and form */
+}
+
+.form-banner img {
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 20px;
+  object-fit: cover; /* Ensure image covers the banner area properly */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+.form-content {
+  flex: 1;
+  padding: 30px 40px;
+  background-color: white;
+  border-radius: 15px; /* Softer rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Soft shadow for floating effect */
+}
+
+.form-content h1 {
+  font-size: 2.2rem;
+  color: #333; /* Darker color for the heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-content label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #666; /* Softer text color for labels */
+}
+
+.form-content input[type="email"],
+.form-content input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.form-content input[type="email"]:focus,
+.form-content input[type="password"]:focus {
+  border-color: #4a90e2;
+}
+
+.form-content .radio-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-content .radio-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+.form-content .radio-group label {
+  margin-right: 20px;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-content button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-content button:hover {
+  background-color: #0056b3;
+}
+
+.form-content .register-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #007bff;
+}
+
+.form-content .register-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-content .register-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*----------------Loader---------------*/
+
+
+.loader-container{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  height: 100vh;
+  background-color: black;
+}
+
+.loader{
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: blueviolet ;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+/*-------------------------------navbar------------------------------*/
+.navbar {
+  background-color: rgb(8, 7, 7) !important;
+  color: rgb(17, 13, 13) !important;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  background-color: #ffcbcb !important; /* Sidebar color for consistency */
+  color: #100c0c !important; /* Darker text color */
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #fabce1 !important; /* Slightly darker shade on hover */
+  color: #100c0c !important; /* Darker text color on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover for depth */
+}
+
+.nav-link.active {
+  background-color: #d4b8a3 !important; /* Active state color */
+  color: #100c0c !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for active state */
+}
+
+/* Specific styles for Analytics/Home button */
+.nav-link.analytics-home {
+  background-color: #007bff !important; /* Primary color for Analytics/Home button */
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.nav-link.analytics-home:hover {
+  background-color: #0056b3 !important; /* Darker shade on hover */
+  color: #fff !important;
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover for depth */
+}
+
+.nav-link.analytics-home.active {
+  background-color: #004494 !important; /* Active state color */
+  color: #fff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for active state */
+}
+
+
