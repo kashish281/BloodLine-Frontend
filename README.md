@@ -62,12 +62,35 @@ This project is a comprehensive software solution designed to streamline the man
    npm start
 
 
+# Worflow
+# Registration Page
+ **Create an Account and must ensure that the password is of almost 6 characters:**
+ ![Register](https://github.com/kashish281/BloodLine-Frontend/blob/main/public/assets/images/Register%20pg.png)
+ 
+
+# Login Page
+ **User(Donar,Admin,Hospital,Organization) can login with same Email and password which they have used during registration:**
+ ![login](https://github.com/kashish281/BloodLine-Frontend/blob/main/public/assets/images/login%20pg.png)
+
+ # Add Inventory
+ **User will be able to Donate blood aur can request for specific blood types**
+ ![Inventory](https://github.com/kashish281/BloodLine-Frontend/blob/main/public/assets/images/add%20inventory.png)
+
+  # Blood Analytics
+ **Track the status of blood requests from initiation to fulfillment.**
+ ![Analytics](https://github.com/kashish281/BloodLine-Frontend/blob/main/public/assets/images/analytics.png)
+
+
+
+  **Login/Register to see more features**
+
+ 
 
 
 -------------------------------------------------------
 
    
-Check out the repository and connect with me for help.😁
+Check out the repository and connect with me for help. <3
 <p align="left">
 <a href="https://www.linkedin.com/in/kashish28/"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg" alt="Linkedin Logo" width="32"></a>&nbsp;&nbsp;&nbsp;
 <a href="mailto:kashishsin28@gmail.com"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg" alt="Gmail logo" height="32"></a>&nbsp;&nbsp;&nbsp;
