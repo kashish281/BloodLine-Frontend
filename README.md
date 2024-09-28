@@ -13,7 +13,6 @@ This project is a comprehensive software solution designed to streamline the man
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 
 
 
