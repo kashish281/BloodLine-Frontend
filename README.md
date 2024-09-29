@@ -62,7 +62,7 @@ This project is a comprehensive software solution designed to streamline the man
    npm start
 
 
-# Worflow
+# Workflow
 # Registration Page
  **Create an Account and must ensure that the password is of almost 6 characters:**
  ![Register](https://github.com/kashish281/BloodLine-Frontend/blob/main/public/assets/images/Register%20pg.png)
